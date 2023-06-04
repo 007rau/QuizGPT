@@ -29,5 +29,5 @@ Approach: Reload the application as load/send the request again resolves the rat
 ```
 Approach: Sometimes I encountered JSONDecodError when the question didn't follow the API response contract, I just dropped that question and continue with others.
 ```
-4. Adaptive difficulty is not measurable from ChatGPT response. The same questions come in different difficulty levels in quiz.
-5.  Loading questions asynchronous in the UI.
+5. Adaptive difficulty is not measurable from ChatGPT response. The same questions come in different difficulty levels in quiz.
+6.  Loading questions asynchronous in the UI.
