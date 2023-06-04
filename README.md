@@ -13,21 +13,21 @@ This is a quiz application powered by ChatGPT. The goal of the application is to
 
 # Challenges
 
-1. Understanding ChatGPT API from their documentation is not clear as they have few examples.
+- Understanding ChatGPT API from their documentation is not clear as they have few examples.
 ```
 Approach: Read few blog post and also few ChatGPT code examples to understand various APIs and their parameters.
 ```
-2. Latency in the question generation.
+- Latency in the question generation.
 ```
 Approach: There is a noticable latency when we go to next question or load a question due to the API response. So, I load 5 questions if user clicks on next button or if it is start of the quiz.
 ```
-3. ChatGPT RateError.
+- ChatGPT RateError.
 ```
 Approach: Reload the application as load/send the request again resolves the rate error issue as load reduces after few milliseconds.
 ```
-4. Decoding Error with ChatGPT response.
+- Decoding Error with ChatGPT response.
 ```
 Approach: Sometimes I encountered JSONDecodError when the question didn't follow the API response contract, I just dropped that question and continue with others.
 ```
-5. Adaptive difficulty is not measurable from ChatGPT response. The same questions come in different difficulty levels in quiz.
-6.  Loading questions asynchronous in the UI.
+- Adaptive difficulty is not measurable from ChatGPT response. The same questions come in different difficulty levels in quiz.
+- Loading questions asynchronous in the UI.
