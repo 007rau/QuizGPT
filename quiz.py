@@ -29,7 +29,7 @@ chat_history = [
 
 def get_quiz_questions(difficultyLevel: int) -> Dict[str, str]:
     global chat_history
-    openai.api_key = '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'
+    openai.api_key = 'api-key'
     current_chat = chat_history[:]
     current_user_message = {
         "role": "user",
